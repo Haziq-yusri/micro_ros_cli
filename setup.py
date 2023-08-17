@@ -13,10 +13,19 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='root',
+    author='Ilia O.',
+    author_email='iliao@remake.ai',
+    maintainer='Ilia O.',
     maintainer_email='iliao@remake.ai',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    keywords=['ROS'],
+    classifiers=[
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python',
+        'Topic :: Software Development',
+    ],
+    description=('Command line interface for Kaia.ai robots'),
+    license='Apache License, Version 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
