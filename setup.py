@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'kaia_cli'
+package_name = 'kaiaai_cli'
 
 setup(
     name=package_name,
@@ -24,12 +24,12 @@ setup(
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
-    description=('Command line interface for Kaia.ai robots'),
+    description=('Command line interface for Kaia.ai-compatible robots'),
     license='Apache License, Version 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'cli = kaia_cli.cli:main'
+            'cli = kaiaai_cli.cli:main'
         ],
     },
 )
