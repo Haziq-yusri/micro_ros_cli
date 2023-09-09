@@ -15,7 +15,7 @@
 # limitations under the License.
 
 def main():
-    print('Hi from kaia_cli.')
+    print('Hi from kaiaai_cli.')
 
 
 if __name__ == '__main__':
