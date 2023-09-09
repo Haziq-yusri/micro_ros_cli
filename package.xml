@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>kaia_cli</name>
+  <name>kaiaai_cli</name>
   <version>0.0.0</version>
 
   <maintainer email="iliao@remake.ai">Ilia O.</maintainer>
   <license>Apache 2.0</license>
   <url type="website">https://kaia.ai</url>
-  <url type="repository">https://github.com/kaiaai/kaia_cli</url>
-  <url type="bugtracker">https://github.com/kaiaai/kaia_cli/issues</url>
+  <url type="repository">https://github.com/kaiaai/kaiaai_cli</url>
+  <url type="bugtracker">https://github.com/kaiaai/kaiaai_cli/issues</url>
   <author email="iliao@remake.ai">Ilia O.</author>
-  <description>Command line interface for Kaia.ai robots</description>
+  <description>Command line interface for Kaia.ai-compatible robots</description>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
