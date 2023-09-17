@@ -10,7 +10,7 @@
   <url type="repository">https://github.com/kaiaai/kaiaai_cli</url>
   <url type="bugtracker">https://github.com/kaiaai/kaiaai_cli/issues</url>
   <author email="iliao@remake.ai">Ilia O.</author>
-  <description>Command line interface for Kaia.ai-compatible robots</description>
+  <description>Command line interface for Kaia.ai software platform compatible robots</description>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
