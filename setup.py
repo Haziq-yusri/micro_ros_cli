@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'kaiaai_cli'
+package_name = 'micro_ros_cli'
 
 setup(
     name=package_name,
@@ -29,7 +29,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'cli = kaiaai_cli.cli:main'
+            'cli = micro_ros_cli.cli:main'
         ],
     },
 )
