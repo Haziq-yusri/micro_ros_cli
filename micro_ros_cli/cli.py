@@ -15,7 +15,7 @@
 # limitations under the License.
 
 def main():
-    print('Hi from kaiaai_cli.')
+    print('Hi from Myduino.')
 
 
 if __name__ == '__main__':
